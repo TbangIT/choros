@@ -1,5 +1,5 @@
-repo_image_name_styled := "vCore"
-export repo_organization := env("GITHUB_REPOSITORY_OWNER", "yourname")
+repo_image_name_styled := "choros"
+export repo_organization := env("GITHUB_REPOSITORY_OWNER", "TbangIT")
 export image_name := env("IMAGE_NAME", "yourimage")
 export centos_version := env("CENTOS_VERSION", "stream10")
 export fedora_version := env("CENTOS_VERSION", "41")
