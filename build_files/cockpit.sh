@@ -11,7 +11,6 @@ PKGS=(
    adwaita-mono-fonts       
    adwaita-sans-fonts
    # Aurora Logo for branding
-   aurora-logos
 )
 
 # Install Packages
