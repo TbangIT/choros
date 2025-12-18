@@ -38,6 +38,7 @@ dnf5 -y -q copr enable petersen/nix >/dev/null 2>&1
 
 # Install Nix
 DNF nix
+DNF nix-daemom
 
 # Enable the Nix Daemon (to enable Nix for all users)
 systemctl enable nix.mount
