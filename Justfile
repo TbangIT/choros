@@ -2,7 +2,7 @@ repo_image_name_styled := "choros"
 export repo_organization := env("GITHUB_REPOSITORY_OWNER", "TbangIT")
 export image_name := env("IMAGE_NAME", "choros")
 export centos_version := env("CENTOS_VERSION", "stream10")
-export fedora_version := env("CENTOS_VERSION", "42")
+export fedora_version := env("CENTOS_VERSION", "41")
 export default_tag := env("DEFAULT_TAG", "latest")
 export bib_image := env("BIB_IMAGE", "quay.io/centos-bootc/bootc-image-builder:latest")
 
